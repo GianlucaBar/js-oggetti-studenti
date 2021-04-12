@@ -58,11 +58,14 @@ for ( var i = 0; i < studenti.length; i++){
 
     console.log( (i + 1) );
 
-     for ( var key in studenti[i]){
-        if ( key == 'nome' || key == 'cognome'){
-        console.log( key  + ': ' + studenti[i][key]);
-        }
-    }
+    //  for ( var key in studenti[i]){
+    //     if ( key == 'nome' || key == 'cognome'){
+    //     console.log( key  + ': ' + studenti[i][key]);
+    //     }
+    // }
+
+    console.log(studenti[i].nome);
+    console.log(studenti[i].cognome);
 }
 
 
